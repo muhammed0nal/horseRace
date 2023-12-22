@@ -1,0 +1,306 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-color: lightgray;
+}
+.saha {
+  display: none;
+  background-color: green;
+  flex-direction: column;
+  padding: 10px;
+  position: relative;
+}
+.sonuc {
+  display: none;
+}
+
+#bitis {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  right: 30px;
+  border-left: 10px dashed white;
+}
+.sonuc {
+  font-size: 1.5rem;
+  text-align: center;
+  padding: 10px;
+  background-color: white;
+}
+
+.kontroller {
+  display: none;
+  text-align: center;
+  padding: 10px;
+  background-color: white;
+}
+.giris-ekrani {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: green;
+}
+.oyuncu-no {
+  display: block;
+  text-align: center;
+  width: 100%;
+}
+
+.oyuncu-isim {
+  text-align: center;
+  display: block;
+}
+.oyuncu-isim input {
+  margin: 0.3rem;
+  padding: 0.5rem;
+}
+
+.onay-isim {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.oyuncu-isim-giris1 {
+  margin: 0.3rem;
+  padding: 0.5rem;
+}
+.oyuncu-isim-giris2 {
+  margin: 0.3rem;
+  padding: 0.5rem;
+}
+.oyuncu-isim-giris3 {
+  margin: 0.3rem;
+  padding: 0.5rem;
+}
+.oyuncu-isim-giris4 {
+  margin: 0.3rem;
+  padding: 0.5rem;
+}
+.oyuncu-isim-giris5 {
+  margin: 0.3rem;
+  padding: 0.5rem;
+}
+.oyuncu-isim-giris6 {
+  margin: 0.3rem;
+  padding: 0.5rem;
+}
+.oyuncu-isim-giris7 {
+  margin: 0.3rem;
+  padding: 0.5rem;
+}
+.oyuncu-isim-giris8 {
+  margin: 0.3rem;
+  padding: 0.5rem;
+}
+
+#at1,
+#at2,
+#at3,
+#at4,
+#at5,
+#at6,
+#at7,
+#at8 {
+  position: relative;
+  /* atları oynatmak için */
+}
+#at1,
+#at2,
+#at3,
+#at4,
+#at5,
+#at6,
+#at7,
+#at8 {
+  width: 160px;
+  height: 100px;
+}
+@media screen and (min-width: 200px) {
+  #at1,
+  #at2,
+  #at3,
+  #at4,
+  #at5,
+  #at6,
+  #at7,
+  #at8 {
+    width: 50px;
+    height: 50px;
+  }
+}
+@media screen and (min-width: 300px) {
+  #at1,
+  #at2,
+  #at3,
+  #at4,
+  #at5,
+  #at6,
+  #at7,
+  #at8 {
+    width: 50px;
+    height: 50px;
+  }
+}
+@media screen and (min-width: 400px) {
+  #at1,
+  #at2,
+  #at3,
+  #at4,
+  #at5,
+  #at6,
+  #at7,
+  #at8 {
+    width: 50px;
+    height: 50px;
+  }
+}
+@media screen and (min-width: 500px) {
+  #at1,
+  #at2,
+  #at3,
+  #at4,
+  #at5,
+  #at6,
+  #at7,
+  #at8 {
+    width: 50px;
+    height: 50px;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  #at1,
+  #at2,
+  #at3,
+  #at4,
+  #at5,
+  #at6,
+  #at7,
+  #at8 {
+    width: 50px;
+    height: 50px;
+  }
+}
+@media screen and (min-width: 700px) {
+  #at1,
+  #at2,
+  #at3,
+  #at4,
+  #at5,
+  #at6,
+  #at7,
+  #at8 {
+    width: 50px;
+    height: 50px;
+  }
+}
+@media screen and (min-width: 800px) {
+  #at1,
+  #at2,
+  #at3,
+  #at4,
+  #at5,
+  #at6,
+  #at7,
+  #at8 {
+    width: 80px;
+    height: 50px;
+  }
+}
+@media screen and (min-width: 900px) {
+  #at1,
+  #at2,
+  #at3,
+  #at4,
+  #at5,
+  #at6,
+  #at7,
+  #at8 {
+    width: 90px;
+    height: 50px;
+  }
+}
+@media screen and (min-width: 1000px) {
+  #at1,
+  #at2,
+  #at3,
+  #at4,
+  #at5,
+  #at6,
+  #at7,
+  #at8 {
+    width: 100px;
+    height: 50px;
+  }
+}
+@media screen and (min-width: 1100px) {
+  #at1,
+  #at2,
+  #at3,
+  #at4,
+  #at5,
+  #at6,
+  #at7,
+  #at8 {
+    width: 110px;
+    height: 50px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  #at1,
+  #at2,
+  #at3,
+  #at4,
+  #at5,
+  #at6,
+  #at7,
+  #at8 {
+    width: 120px;
+    height: 60px;
+  }
+}
+@media screen and (min-width: 1300px) {
+  #at1,
+  #at2,
+  #at3,
+  #at4,
+  #at5,
+  #at6,
+  #at7,
+  #at8 {
+    width: 130px;
+    height: 70px;
+  }
+}
+@media screen and (min-width: 1400px) {
+  #at1,
+  #at2,
+  #at3,
+  #at4,
+  #at5,
+  #at6,
+  #at7,
+  #at8 {
+    width: 140px;
+    height: 80px;
+  }
+}
+@media screen and (min-width: 1500px) {
+  #at1,
+  #at2,
+  #at3,
+  #at4,
+  #at5,
+  #at6,
+  #at7,
+  #at8 {
+    width: 150px;
+    height: 90px;
+  }
+}

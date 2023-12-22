@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>At Yarışı</title>
+  </head>
+  <body>
+    <div class="giris-ekrani" id="giris-ekrani">
+      <form id="oyuncu-no" class="oyuncu-no">
+        <p style="color: white">Oyuncu Sayısı Girin</p>
+        <input type="number" class="oyuncu-no-giris" id="oyuncu-no-giris" />
+      </form>
+      <p style="display: none; color: #ffffff" class="isim-gir" id="isim-gir">
+        İsimleri Girin
+      </p>
+      <!-- <form class="oyuncu-isim">
+        <input type="text" class="oyuncu-isim-giris1" id="oyuncu-isim-giris1" />
+        <input type="text" class="oyuncu-isim-giris2" id="oyuncu-isim-giris2" />
+        <input type="text" class="oyuncu-isim-giris3" id="oyuncu-isim-giris3" />
+        <input type="text" class="oyuncu-isim-giris4" id="oyuncu-isim-giris4" />
+        <input type="text" class="oyuncu-isim-giris5" id="oyuncu-isim-giris5" />
+        <input type="text" class="oyuncu-isim-giris6" id="oyuncu-isim-giris6" />
+        <input type="text" class="oyuncu-isim-giris7" id="oyuncu-isim-giris7" />
+        <input type="text" class="oyuncu-isim-giris8" id="oyuncu-isim-giris8" />
+        <div class="onay-isim">
+          -->
+      <p style="padding: 1rem; color: aliceblue" id="enter-ile-onay">
+        enter ile onayla
+      </p>
+    </div>
+
+    <div class="saha" id="saha">
+      <img class="atlar" src="at1.gif" alt="" id="at1" style="display: none" />
+      <img class="atlar" src="at2.gif" alt="" id="at2" style="display: none" />
+      <img class="atlar" src="at3.gif" alt="" id="at3" style="display: none" />
+      <img class="atlar" src="at4.gif" alt="" id="at4" style="display: none" />
+      <img class="atlar" src="at5.gif" alt="" id="at5" style="display: none" />
+      <img class="atlar" src="at6.gif" alt="" id="at6" style="display: none" />
+      <img class="atlar" src="at7.gif" alt="" id="at7" style="display: none" />
+      <img class="atlar" src="at8.gif" alt="" id="at8" style="display: none" />
+      <div id="bitis"></div>
+    </div>
+    <div id="sonuc" class="sonuc">Atlar yarışa hazır.</div>
+    <div id="kontroller" class="kontroller">
+      <button id="dugme">BAŞLAT</button>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
